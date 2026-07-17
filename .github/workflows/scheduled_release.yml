@@ -1,0 +1,40 @@
+name: 時限公開の自動反映
+
+# 毎朝07:15(JST) = 22:15(UTC)にfeedを再生成し、公開日(pubDate)が到来した
+# エピソードを自動でfeed.xml / index.htmlへ反映する。
+# PCの電源が入っていなくてもGitHub Actions側で実行されるため、
+# 未来日付で登録したエピソードも公開日当日に確実に配信される。
+on:
+  schedule:
+    - cron: '15 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: feed.xmlとindex.htmlを再生成
+        run: python scripts/build_feed.py
+
+      - name: 差分があればコミットしてpush
+        run: |
+          if git diff --quiet feed.xml index.html; then
+            echo "差分なし: 公開日が到来した新規エピソードはありません"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add feed.xml index.html
+            git commit -m "時限公開: 公開日到来エピソードをfeedへ反映"
+            git push
+          fi

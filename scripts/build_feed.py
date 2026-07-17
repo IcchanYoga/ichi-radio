@@ -3,18 +3,27 @@
 
 使い方:
     python scripts/build_feed.py
+    python scripts/build_feed.py --include-future  # 時限フィルタを無効化
 
 - enclosure の length は audio/ 内の実ファイルのバイト数から自動計算
 - itunes:duration は duration_seconds から HH:MM:SS に変換
 - 生成後に xml.etree で feed.xml をパースし、整形式であることを検証する
+- 既定では pubDate が現在時刻(JST)より未来のエピソードを feed.xml / index.html
+  から除外する(時限公開)。pubDate を解析できないエピソードは、既存エピソード
+  を誤って落とさないよう安全側に倒して「公開済み」として含め、警告を標準エラー
+  へ出す。--include-future を付けるとこのフィルタを無効化し、全件を出力する。
 """
+import argparse
 import html
 import json
 import sys
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -32,6 +41,53 @@ def hms(seconds: float) -> str:
 def load_data() -> dict:
     with open(ROOT / "episodes.json", encoding="utf-8-sig") as f:
         return json.load(f)
+
+
+def filter_published_episodes(episodes: list, now: datetime) -> list:
+    """pubDate が now より未来のエピソードを除いた一覧を返す(時限公開フィルタ)。
+
+    pubDate を解析できない、またはタイムゾーン情報が無いエピソードは、
+    既存エピソードを絶対に落とさない安全側の方針として除外せず含め、
+    その旨を警告として標準エラーへ出す。
+    """
+    published = []
+    for ep in episodes:
+        pub_date = ep.get("pubDate", "")
+        try:
+            parsed = parsedate_to_datetime(pub_date)
+        except (TypeError, ValueError, IndexError):
+            parsed = None
+        if parsed is None:
+            print(
+                f"WARNING: pubDateを解析できないため公開済み扱いで含めます: "
+                f"guid={ep.get('guid', '?')} pubDate={pub_date!r}",
+                file=sys.stderr,
+            )
+            published.append(ep)
+            continue
+        if parsed.tzinfo is None:
+            print(
+                f"WARNING: pubDateにタイムゾーン情報が無いため公開済み扱いで含めます: "
+                f"guid={ep.get('guid', '?')} pubDate={pub_date!r}",
+                file=sys.stderr,
+            )
+            published.append(ep)
+            continue
+        if parsed <= now:
+            published.append(ep)
+    return published
+
+
+def parse_args(argv=None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="episodes.json から feed.xml と index.html を生成する"
+    )
+    parser.add_argument(
+        "--include-future",
+        action="store_true",
+        help="pubDateが未来のエピソードも含めて生成する(時限フィルタを無効化)",
+    )
+    return parser.parse_args(argv)
 
 
 def build_feed(data: dict) -> None:
@@ -118,7 +174,12 @@ def validate_feed() -> None:
 
 
 def main() -> None:
+    args = parse_args()
     data = load_data()
+    if not args.include_future:
+        now = datetime.now(JST)
+        data = dict(data)
+        data["episodes"] = filter_published_episodes(data["episodes"], now)
     build_feed(data)
     build_index(data)
     validate_feed()
