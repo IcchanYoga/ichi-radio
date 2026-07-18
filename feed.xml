@@ -213,5 +213,30 @@ AIは賢いけれど、自分のアイデアは自分が出さないと拾って
       <pubDate>Sat, 12 Jul 2026 19:30:00 +0900</pubDate>
       <itunes:duration>00:10:03</itunes:duration>
     </item>
+    <item>
+      <title>マーケティングが目的化する罠。個人事業主が陥りがちなこと</title>
+      <description>個人事業主にとってマーケティングは商品を届ける手段なのに、大変すぎて「SNS運用すること」自体が目的になってしまう罠がある、という気づきから始まる回。
+自分の実践(音声を毎日撮るだけ)で、Threads・リール・YouTubeショート・ストーリーズは自動投稿、note・Substackは下書きまで自動、X・TikTokだけ手動、というところまで自動化が進んだ近況を報告。
+中盤はFP1級アプリの開発進捗。PC限定で問題を解くときに横に解説を表示する機能を実装した話と、バグを見つけて潰すこと自体が勉強になっているという気づき。
+終盤は音声配信再開にあたってAIに「今まで一番聞かれた投稿は?」と聞いたら、stand.fmの一番最初の投稿「ビクラムヨガを始めたきっかけ」だったという振り返り。しょうもないきっかけから12年続けて人生が変わった話です。
+
+#個人事業主 #マーケティング #AI活用 #FP1級 #ヨガインストラクター
+
+00:00 マーケティングは商品を届ける手段。なのに目的化する罠
+01:24 音声を毎日とるだけがマーケティングになる。無料シート配布中
+04:36 自動化の完成度: Threads・リール・YouTubeショート・ストーリーズは自動、note・Substackは下書き自動、X・TikTokは手動
+05:25 FP1級アプリ: PC限定で横に解説を表示する機能
+06:26 テスター募集も配信から自動化されている
+07:28 バグを潰すこと自体が勉強になる
+08:00 stand.fm再開。AIに聞いた「一番聞かれた投稿」はビクラムヨガを始めたきっかけ
+08:38 「休みの日にやることないから誘われていっただけ」が12年続いて人生が変わった
+
+▶ 番組で作っているFP1級学習アプリ、無料βテスター募集中: https://fp1-kiso-marubatsu-knock.vercel.app/lp
+🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf</description>
+      <enclosure url="https://icchanyoga.github.io/ichi-radio/audio/ep009.m4a" type="audio/mp4" length="5561785" />
+      <guid isPermaLink="false">ichi-radio-ep009</guid>
+      <pubDate>Sat, 18 Jul 2026 18:30:00 +0900</pubDate>
+      <itunes:duration>00:10:01</itunes:duration>
+    </item>
   </channel>
 </rss>
