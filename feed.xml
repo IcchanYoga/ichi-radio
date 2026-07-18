@@ -238,5 +238,30 @@ AIは賢いけれど、自分のアイデアは自分が出さないと拾って
       <pubDate>Sat, 18 Jul 2026 18:30:00 +0900</pubDate>
       <itunes:duration>00:10:01</itunes:duration>
     </item>
+    <item>
+      <title>発信は当てにいくものじゃなくて、デバッグ作業でした</title>
+      <description>朝Threadsで見た動画から得た気づきの回。「希望的観測(自分が正しいと思い込むこと)を持ってしまうのが一番良くない、毎日少しずつ修正していくべき」という話に触れ、発信も「当たるかどうか」ではなく「これも違ったかを確認するデバッグ作業」と捉えると続けやすい、という発信哲学を話しています。
+中盤はFP1級アプリの近況(問題を解くこと自体もデバッグ作業だという捉え方)。
+終盤は、noteの記事をAIに依頼する際、書き方を指定したら質がかなり上がったという実践報告と、音声資産化の近況です。
+
+#発信 #マインドセット #AI活用 #個人事業主 #FP1級
+
+00:00 朝見た動画から。「希望的観測」を持たないという教え
+00:54 常に実験、失敗して当たり前と思ってやる
+02:50 発信を「デバッグ作業」と捉える
+03:30 昨日の話題、思い出せず(率直な一言)
+04:36 問題を解くこともデバッグ作業
+05:29 noteの記事、書き方を指定したら質が上がった
+06:22 発信は怖い。でも実験だと思えば怖くなくなる
+07:15 経験に基づく知見はすごい資産
+09:16 音声からnote・インスタ・Threads・Xへ変換する仕組みの近況
+
+▶ 番組で作っているFP1級学習アプリ、無料βテスター募集中: https://fp1-kiso-marubatsu-knock.vercel.app/lp
+🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf</description>
+      <enclosure url="https://icchanyoga.github.io/ichi-radio/audio/ep010.m4a" type="audio/mp4" length="5772054" />
+      <guid isPermaLink="false">ichi-radio-ep010</guid>
+      <pubDate>Sun, 19 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:duration>00:10:15</itunes:duration>
+    </item>
   </channel>
 </rss>
