@@ -263,5 +263,31 @@ AIは賢いけれど、自分のアイデアは自分が出さないと拾って
       <pubDate>Sun, 19 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:duration>00:10:15</itunes:duration>
     </item>
+    <item>
+      <title>発信が続く人と続かない人の違いは、努力じゃない</title>
+      <description>発信が2〜3日空いてしまった、という正直な報告から始まる回。SNSが増えて媒体ごとに型が違う今、毎日続けるのはやっぱり難しい。でも続く人と続かない人の違いは努力の差ではなく、「このやり方なら毎日続く」を見つけられるかどうかじゃないか——という話をしています。
+音声からAIが各媒体に展開してくれるようになって、「音声を撮ることさえやれば大丈夫」と思えるだけでずいぶん楽になった、という現在地も。
+後半は宣言回です。今日から30日間、Threadsを攻略する企画を始めます。売りたいのは、音声からThreadsの投稿・分析・改善までAIが回してくれるアプリ。現在地の数字(閲覧2.5万回・フォロワー142人・売上0)も全部さらして、経過はリールと音声で出していきます。
+
+#Threads #SNS発信 #AI活用 #個人事業主 #音声配信
+
+00:00 2〜3日空いてしまった。毎日発信はやっぱり難しい
+00:57 SNSが増えて、媒体ごとに型が違う(Threads・リール・ストーリー・X・音声)
+03:26 続く人と続かない人の違いは、努力じゃない
+04:43 音声からAIが全媒体に展開。「撮ることさえやれば大丈夫」
+06:06 台本なしで撮る。テーマはAIに決めてもらうようになった
+07:22 今日から30日間、Threads攻略企画を始めます
+07:55 売りたいもの: 音声からThreadsを自動運用するAIアプリ
+08:53 相性がいいのは、音声配信をやっている人
+12:05 現在地を正直に公開: 閲覧2.5万回・フォロワー142人・売上0
+13:34 経過はリールと音声で全部出していきます
+
+▶ 番組で作っているFP1級学習アプリ、無料βテスター募集中: https://fp1-kiso-marubatsu-knock.vercel.app/lp
+🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf</description>
+      <enclosure url="https://icchanyoga.github.io/ichi-radio/audio/ep011.m4a" type="audio/mp4" length="7331456" />
+      <guid isPermaLink="false">ichi-radio-ep011</guid>
+      <pubDate>Mon, 20 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:duration>00:14:14</itunes:duration>
+    </item>
   </channel>
 </rss>
