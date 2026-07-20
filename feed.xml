@@ -289,5 +289,31 @@ AIは賢いけれど、自分のアイデアは自分が出さないと拾って
       <pubDate>Mon, 20 Jul 2026 07:00:00 +0900</pubDate>
       <itunes:duration>00:14:14</itunes:duration>
     </item>
+    <item>
+      <title>「AIで書くとAI臭くなる」への、僕の答え</title>
+      <description>「AIで作ると文章がAI臭くなるのが不安」——Threadsでもnoteでもよく聞く悩みへの、実践からの答えの回。毎日の音声をタイムスタンプ付きで文字起こしし、それをAIに読み込ませているので、話し言葉ごと文体を学習してくれて、出てくる文章がだいぶ「僕らしい言葉」になる。そもそも元が自分の話なら、AI臭くはなりにくい——という話です。
+投稿は翌日方式にして、予約一覧を読んで文体だけ直す。同じ指摘が3回たまったらルールに昇格する仕組みも紹介しています。
+終盤は「失敗はない、失敗するデータが溜まるだけ」という実験の捉え方。30日で売れなくても、次は31種類目のやり方から始められます。
+
+#AI活用 #Threads #発信 #文章術 #個人事業主
+
+00:00 よく聞く不安「AIで作ると文章がAI臭くなる」
+00:42 毎日の音声を文字起こししてAIに読み込ませている
+01:14 話し言葉ごと文体を学習してもらう(関西弁問題も)
+02:01 投稿は翌日方式。予約一覧を読んで文体だけ直す
+03:43 同じ指摘3回でルールに昇格する仕組み
+03:55 リールとストーリーも自動化。数字は表にしてくれた
+04:58 ストーリー完全自動化の壁と、AIからの逆指示(アンケートは手動で)
+05:35 明確な目標を伝えると「何を試すか」を教えてくれる
+06:31 失敗はない。失敗するデータが溜まって成功が残る
+08:21 AIが僕らしさを学習して、AI臭さを消してくれる
+
+▶ 番組で作っているFP1級学習アプリ、無料βテスター募集中: https://fp1-kiso-marubatsu-knock.vercel.app/lp
+🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf</description>
+      <enclosure url="https://icchanyoga.github.io/ichi-radio/audio/ep012.m4a" type="audio/mp4" length="5012156" />
+      <guid isPermaLink="false">ichi-radio-ep012</guid>
+      <pubDate>Tue, 21 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:duration>00:09:06</itunes:duration>
+    </item>
   </channel>
 </rss>
