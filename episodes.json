@@ -3,7 +3,7 @@
     "title": "イチの仕事資産化ラジオ",
     "link": "https://icchanyoga.github.io/ichi-radio",
     "language": "ja",
-    "description": "今日の仕事を、今日だけで終わらせない。\n40代個人事業主のイチが、毎日の仕事・学び・失敗をAIで「資産」に変えていく過程を、ほぼ生のまま配信します。\nFP1級への再挑戦、非エンジニアによる学習アプリのAI自作、SNS発信の実験記録、ヨガ講師の現場から見えたお金と働き方の話まで。\n完成した成功法則ではなく、試行錯誤の現在地を毎回残していく番組です。\nLISTEN: https://listen.style/p/ichishigotoshisanka?SaPIzZjZ\n\n▶ 番組で作っているFP1級学習アプリ、無料βテスター募集中: https://fp1-kiso-marubatsu-knock.vercel.app/lp\n🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf",
+    "description": "今日の仕事を、今日だけで終わらせない。\n40代個人事業主のイチが、毎日の仕事・学び・失敗をAIで「資産」に変えていく過程を、ほぼ生のまま配信します。\nFP1級への再挑戦、非エンジニアによる学習アプリのAI自作、SNS発信の実験記録、ヨガ講師の現場から見えたお金と働き方の話まで。\n完成した成功法則ではなく、試行錯誤の現在地を毎回残していく番組です。\nLISTEN: https://listen.style/p/ichishigotoshisanka?SaPIzZjZ\n\n▶ 音声を録るだけでThreads運用が回る「先行運用キット」、先行3名限定で募集中: https://ichi-early-access.pages.dev/?utm_source=podcast&utm_medium=bio&utm_campaign=cmp_20260716_1690601b51aa\n🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf",
     "author": "イチ",
     "owner_name": "イチ",
     "owner_email": "yogafukugyo@gmail.com",
@@ -156,6 +156,14 @@
       "audio": "ep018.m4a",
       "duration_seconds": 348.0,
       "pubDate": "Mon, 27 Jul 2026 07:00:00 +0900"
+    },
+    {
+      "guid": "ichi-radio-ep019",
+      "title": "音声だけでThreadsが動く「先行運用キット」、先行3名の応募を始めます",
+      "description": "【先行利用者募集中・3名限定】\nAIを使いこなせるように“なりたい”人向けではありません。商品はあるのに発信まで手が回らない人のための仕組みです。\n作るのはこちら、話すのはあなた。音声を録るだけで、ThreadsとInstagramリールの投稿が回りはじめる——その先行利用者を3名だけ募集しています。\n▶ 応募・詳細(先着即決ではなく、条件を確認のうえ個別にご案内します):\nhttps://ichi-early-access.pages.dev/?utm_source=podcast&utm_medium=show_notes&utm_campaign=cmp_20260716_1690601b51aa\n(stand.fmから聞いている方はこちら → https://ichi-early-access.pages.dev/?utm_source=standfm&utm_medium=show_notes&utm_campaign=cmp_20260716_1690601b51aa)\n\n30日Threads攻略、17日目の今日から商品ページを公開し、先行利用者3名の募集を始めます。\nなぜ3名限定か。パソコンでの導入を、実際に一緒に手を動かして手助けするからです。分からないところはDiscordで質問、必要なら一度だけビデオ通話でも。応募はまだ購入確定ではなく、案内が届いてから決めてもらって大丈夫です。\n17日間続けてきた実測も正直に。Threadsのフォロワー増減はゼロですが、これは「見てもらえていない」ではなく「今までと違う質の人に入れ替わっている」手応えとして話しています。\n興味のある方は、各媒体のプロフィールから商品ページをのぞいてみてください。\n\n#Threads #SNS運用 #AI活用 #個人事業主 #音声配信\n\n00:00 今日から商品ページを公開。3名限定の応募を始めます\n00:16 なぜ3名限定か: パソコンでの導入を直接手助けするから\n01:05 Discordでのやり取り、一度だけのビデオ通話サポートも\n02:08 応募イコール購入確定ではない。案内を見てから決めてOK\n02:17 17日目の実測: フォロワー増減ゼロだが「質が違う」\n03:26 毎日の閲覧数は少しずつ。改善しながら一緒にやってくれる人を探している\n04:31 音声さえ撮ればAIに任せられる。土日にまとめて作るより楽\n05:13 月3000〜4000円のAIサブスクで「SNS運用の大工」を雇う感覚\n05:46 買い切り。将来は値上げ予定、それ以上の価値をブラッシュアップしていく",
+      "audio": "ep019.m4a",
+      "duration_seconds": 398.6,
+      "pubDate": "Mon, 03 Aug 2026 10:40:00 +0900"
     }
   ]
 }
