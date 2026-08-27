@@ -1,17 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>イチの仕事資産化ラジオ</title>
+    <title>いちのヨガラジオ ― 40代の身体と考え方</title>
     <link>https://icchanyoga.github.io/ichi-radio</link>
     <language>ja</language>
-    <description>今日の仕事を、今日だけで終わらせない。
-40代個人事業主のイチが、毎日の仕事・学び・失敗をAIで「資産」に変えていく過程を、ほぼ生のまま配信します。
-FP1級への再挑戦、非エンジニアによる学習アプリのAI自作、SNS発信の実験記録、ヨガ講師の現場から見えたお金と働き方の話まで。
-完成した成功法則ではなく、試行錯誤の現在地を毎回残していく番組です。
-LISTEN: https://listen.style/p/ichishigotoshisanka?SaPIzZjZ
+    <description>ヨガのインストラクターを12年やっています。
 
-▶ 音声を録るだけでThreads運用が回る「先行運用キット」、先行3名限定で募集中: https://ichi-early-access.pages.dev/?utm_source=podcast&amp;utm_medium=bio&amp;utm_campaign=cmp_20260716_1690601b51aa
-🎁 発信ネタを掘り起こす無料シート(PDF): https://icchanyoga.github.io/ichi-media/files/horiokoshi-sheet.pdf</description>
+レッスンで見てきたこと、会員さんから教わったこと、
+40代の身体の変化、一人で仕事を続ける日々のあれこれを、
+毎朝7時に話しています。
+
+ポーズの解説より、考え方やメンタルの話が多めです。
+瞑想したら3分で寝るタイプです。
+
+毎日の発信はAIと組んで回しています。
+
+note: https://note.com/ichiyogaai
+LISTEN: https://listen.style/p/ichishigotoshisanka?SaPIzZjZ</description>
     <itunes:author>イチ</itunes:author>
     <itunes:owner>
       <itunes:name>イチ</itunes:name>
