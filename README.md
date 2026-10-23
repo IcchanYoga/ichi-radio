@@ -24,6 +24,8 @@ ichi-radio/
 
 ## エピソード追加手順
 
+> **2026-10-20〜 1本の道具で行う**: `python scripts/add_episode.py <番号> --title "題" --desc-file 概要欄.txt --audio 元.m4a --transcript-json 文字起こし.json --publish YYYY-MM-DD [--push] [--desktop]`(直す時は `--update`)。連番・重複・題40字以内を検査し、下の1〜3(`--push` で4、`--desktop` でstand.fm用の複製)を順に行う。概要欄は担当が書く。下の手順は道具の中身の説明として残す。
+
 1. 音声ファイルを `audio/epNNN.m4a`(連番)としてコピーする
 2. `episodes.json` の `episodes` 配列の**末尾**に1件追記する:
    - `guid`: `ichi-radio-epNNN`(固定文字列。後から変えない)
